@@ -10,27 +10,59 @@ h1 {
   color: #333;
   text-align: center;
 }
-p {
-	.dm-sans-regular {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400; /* normalna težina */
-  font-style: normal;
-}
-
-.dm-sans-bold {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700; /* podebljana */
-  font-style: normal;
-}
-
+p{
+	
   font-family: 'Playfair Display', serif;
   font-size: 20px;
-background-color: antiquewhite;
+background-color: lavender;
 padding: 20px;
 text-align: center;
+
 }
 body {
 	background-image: url("zelenapozadina.jpg")
 }
+
+span {
+  font-family:Calibri;
+  text-decoration: underline;
+  color: green;
+  font-weight:bold;
+  font-style:italic
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  display: block; 
+  font-size: 20px;
+  font-weight: bold;
+  background-color: lightblue;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+div {
+  display: none;
+}
+
+ol, ul {
+  width: fit-content;
+  margin: 10px auto 30px;
+  padding: 15px 30px;
+  background-color: white;
+  box-shadow: lightgray;
+  list-style-position: inside;
+}
+
+.float-emoji {
+    float: right;           /* pliva desno od teksta */
+    font-size: 40px;        /* veći emoji */
+    margin: 0 0 10px 15px;  /* razmak između teksta i emojija */
+    line-height: 1;
+  }
+  
+
+
+
+

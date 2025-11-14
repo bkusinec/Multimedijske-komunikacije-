@@ -1,34 +1,34 @@
-
 .sigmar-one-regular {
   font-family: "Sigmar One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
 h1 {
   font-family: "Sigmar One", sans-serif;
   font-size: 48px; 
   color: #333;
   text-align: center;
 }
-p{
-	
+
+p {
   font-family: 'Playfair Display', serif;
   font-size: 20px;
-background-color: lavender;
-padding: 20px;
-text-align: center;
-
+  background-color: lavender;
+  padding: 20px;
+  text-align: center;
 }
+
 body {
-	background-image: url("zelenapozadina.jpg")
+  background-image: url("zelenapozadina.jpg");
 }
 
 span {
-  font-family:Calibri;
+  font-family: Calibri;
   text-decoration: underline;
   color: green;
-  font-weight:bold;
-  font-style:italic
+  font-weight: bold;
+  font-style: italic;
 }
 
 h2 {
@@ -56,11 +56,12 @@ ol, ul {
 }
 
 .float-emoji {
-    float: right;          
-    font-size: 40px;        
-    margin: 0 0 10px 15px;  
-    line-height: 1;
-  }
+  float: right;          
+  font-size: 40px;        
+  margin: 0 0 10px 15px;  
+  line-height: 1;
+}
+
 form {
   width: 400px;
   background: lavender;
@@ -69,7 +70,8 @@ form {
   border-radius: 10px;
   margin: 50px auto; 
   box-sizing: border-box; 
-  text-align: center; 
+  text-align: center;
+}
 
 fieldset {
   border: 2px solid #f7b6f3;
@@ -103,7 +105,8 @@ input[type=button] {
   padding: 8px 16px;
   border: 2px solid #d1d1e6;
   cursor: pointer;
-  width: auto; 
+  width: auto;
+}
 
 input[type=submit]:hover,
 input[type=reset]:hover,
@@ -113,4 +116,32 @@ input[type=button]:hover {
 }
 
 
+table {
+  width: 360px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
 
+  border-collapse: collapse; 
+  background-color: white;   
+  border: 2px solid #7ca37f; 
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #7ca37f;
+  padding: 12px;
+  text-align: center;
+  background-color: white;
+}
+
+
+thead tr:first-child th {
+  background-color: #e3f1e4;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8fff8;
+}

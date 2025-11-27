@@ -92,3 +92,38 @@ thead tr:first-child th {
 tbody tr:nth-child(even) {
   background-color: #f8fff8;
 }
+
+
+.d1 {
+    background:orange;
+	top.0px;
+}
+.d2 {
+    background:purple;
+	left:0px;
+    bottom:0px;
+}
+.d3 {
+    background:purple;
+    right:0px;
+}
+.d4 {
+    background:orange;
+    right:0px;
+    bottom:0px;
+}
+.d1, .d2, .d3, .d4 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+	vertical-align: middle;   
+    margin: 5px;             
+    clear: both;   
+	float: left;   
+}

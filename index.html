@@ -81,3 +81,43 @@
            </object>
      
     </section>
+	
+  <h2>MOJA ANALOGNA FOTOGAFIJA</h2>
+
+    <img src="slike/4.jpeg" alt="Novalja" usemap="#NovaljaMapa" width="600" height="400">
+ <p>klikom na fotografiju otvara se mjesto gdje je uslikana</p>
+
+    <map name="NovaljaMapa">
+        <area shape="rect" coords="0,0,600,400" href="https://www.google.com/maps/place/Novalja/@44.5446001,14.806607,12z/data=!3m1!4b1!4m6!3m5!1s0x47624a294fa4057f:0xad9d6e81c8014d6e!8m2!3d44.5567634!4d14.8825757!16zL20vMDcwNTUx?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D" alt="Novalja" target="_blank">
+    </map>
+
+ 
+    <h2>VIDEOZAPIS OTOKA PAGA</h2>
+    <video width="600" height="400" controls>
+        <source src="video/1.mp4" type="video/mp4">
+     
+    </video>
+
+
+    <h2>ZVUK LJETA</h2>
+    <audio id="myAudio">
+        <source src="2.mp3" type="audio/mpeg">
+        
+    </audio>
+    <br>
+    <button onclick="toggleAudio()">Reproduciraj / Pauziraj audio</button>
+
+<script>
+function toggleAudio() {
+    var audio = document.getElementById("myAudio");
+    if (audio.paused) {
+        audio.play();
+    } else {
+        audio.pause();
+    }
+}
+</script>
+
+
+</body>
+</html>

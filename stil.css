@@ -42,9 +42,7 @@ h2,h3 {
   text-align: center;
 }
 
-div {
-  display: none;
-}
+
 
 ol, ul {
   width: fit-content;
@@ -205,6 +203,74 @@ ol {
     font-size: 18px; 
     display: block;
     margin: 20px auto;
- 
+}
 
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    margin: 40px auto;
+}
+
+
+.container:hover {
+    transform: scale(1.03);
+}
+
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+.container input,
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.container input:focus,
+.container textarea:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 8px rgba(74,144,226,0.5);
+    outline: none;
+}
+
+
+.container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5a6ea0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.container button:hover {
+    background-color: #357abd;
+    transform: translateY(-3px);
+}
+
+.container button:active {
+    transform: scale(0.95);
 }

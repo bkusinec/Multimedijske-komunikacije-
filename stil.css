@@ -148,7 +148,7 @@ li
 	font-size:11px;
 	text-align:center;
 	width:300px;
-	box-sizing:border-box;}
+	box-sizing:border-box;
 	
 }
 
@@ -274,3 +274,71 @@ ol {
 .container button:active {
     transform: scale(0.95);
 }
+
+
+        
+		#tema{ display: flex;
+            gap: 20px;
+            justify-content: center;
+		    margin-top: 50px;}
+
+    
+        .okvir {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: relative;
+
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #333;
+            font-size: 16px;
+        }
+
+
+       .okvir:nth-child(1) {
+            animation-name: pomakBoja;
+            animation-duration: 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes pomakBoja {
+            0% { left: 0; background-color: yellow; transform: rotate(0deg); }
+            50% { left: 200px; background-color: orange; transform: rotate(45deg); }
+            100% { left: 400px; background-color: red; transform: rotate(0deg); }
+        }
+
+
+   .okvir:nth-child(2) {
+            animation-name: skaliranje;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes skaliranje {
+            0% { transform: scale(1); background-color: lightblue; }
+            50% { transform: scale(1.5); background-color: deepskyblue; }
+            100% { transform: scale(1); background-color: lightblue; }
+        }
+
+ .okvir:nth-child(1) + .okvir + .okvir {
+            animation-name: skakanje;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes skakanje {
+            0% { top: 0; background-color: lightgreen; }
+            25% { top: -50px; background-color: greenyellow; }
+            50% { top: 0; background-color: limegreen; }
+            75% { top: -50px; background-color: yellowgreen; }
+            100% { top: 0; background-color: lightgreen; }
+        }

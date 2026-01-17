@@ -484,14 +484,16 @@ ol {
   100% { transform: rotateY(-90deg); }
 }
 
-.s1 { background-image: url('slike/11.jpg'); }
-.s2 { background-image: url('slike/22.jpg'); }
-.s3 { background-image: url('slike/33.jpg'); }
-.s4 { background-image: url('slike/44.jpg'); }
-.s5 { background-image: url('slike/55.jpg'); }
-.s6 { background-image: url('slike/66.jpg'); }
+.s1 { background-image: url('slike/11.JPG'); }
+.s2 { background-image: url('slike/22.JPG'); }
+.s3 { background-image: url('slike/33.JPG'); }
+.s4 { background-image: url('slike/44.JPG'); }
+.s5 { background-image: url('slike/55.JPG'); }
+.s6 { background-image: url('slike/66.JPG'); }
 .strane {
     width: 200px;  
     height: 200px;
     background-size: cover;
+
     background-position: center;
+}

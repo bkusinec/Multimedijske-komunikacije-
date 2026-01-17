@@ -407,7 +407,7 @@ ol {
     opacity: 0.6;
 }
     .s1 {
-    background: orange;
+ 
     top: 200px;
     left: 0px;
     transform-origin: 100% 0%;
@@ -418,7 +418,7 @@ ol {
     100% { transform: rotateY(90deg); }
 }
 .s2 {
-  background: red;
+ 
   top: 200px;
   left: 200px;
   transform-origin: 0% 0%;
@@ -426,7 +426,7 @@ ol {
 }
 
 .s3 {
-    background: navy;
+    
     top: 0px;
     left: 200px;
     transform-origin: 0% 100%;
@@ -437,7 +437,7 @@ ol {
     100% { transform: rotateX(-90deg); }
 }
 .s4 {
-    background: magenta;
+   
     top: 400px;
     left: 200px;
     transform-origin: 0% 0%;
@@ -449,7 +449,7 @@ ol {
 }
 
 .s6 {
-  background: green;
+ 
   opacity: 0.6;
   top: 0px;
   left: 0px;
@@ -457,7 +457,7 @@ ol {
 
 
 .s5 {
-  background: cyan;
+  
   opacity: 0.6;
   top: 0px;
   left: 200px;
